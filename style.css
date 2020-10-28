@@ -1,0 +1,252 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+
+
+
+.dark-box {
+    width: 100%;
+    height: 550px;
+    background-color: rgb(47, 47, 65);
+    position: relative;
+    
+}
+.line {
+    width: 100px;
+    margin-bottom: 25px;
+    border: 1px solid #ffffff;
+
+}
+.text-box {
+    width: 40%;
+    margin-left: 55px;
+    margin-top: 70px;
+    color: white;
+    position: relative;
+}
+.text-box h2 {
+    font-size: 60px;
+}
+
+.img-box{
+    width: 50%;
+    margin-left: 20px;
+    position: relative;
+    
+    
+}
+
+
+
+.dark-box img {
+    width: 100%;
+    height: 600px;
+    visibility: hidden;
+    position: relative;
+}
+.img-box img {
+    width: 80%;
+    margin-top: 80px;
+    margin-left: 45px;
+    visibility: hidden;
+}
+
+
+@media screen and (max-width: 1000px){
+    .dark-box img {
+        visibility: visible;
+    }
+    .dark-box{
+        
+        height: 1100px;
+        text-align: center;
+    }
+    .text-box {
+        margin: 70px 20px;
+        width: 100%;
+    }
+    .text-box .line {
+        visibility: hidden;
+    }
+
+
+
+    .img-box img {
+        visibility: hidden;
+    }
+}
+@media screen and (min-width: 1000px){
+    .dark-box {
+        height: 570px;
+    }
+    .text-box {
+        margin-top: -550px;
+    }
+    .img-box img {
+        margin-top: -550px;
+        visibility: visible;
+    }
+}
+
+
+/*   section------3**/
+
+.sec-3 {
+    margin-top: 200px;
+}
+.line-1 {
+    width: 100px;
+    border: 1px solid #4c698b;
+}
+.we-box {
+    margin-top: 20px;
+    font-size: 60px;
+    font-display: 10px;
+}
+.items {
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.items-box {
+    width: 33%;
+    padding: 10px;
+}
+.items-box img {
+    width: 70px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+    .sec-3 {
+        margin-top: 100px;
+    }
+    .line-1{
+        margin: auto;
+        width: 200px;
+    }
+    .we-box {
+        text-align: center;
+    }
+    .items {
+
+    }
+    .items-box {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+/** section------4 **/
+
+
+.box-4 {
+    margin-top: 80px;
+    background-color: rgb(47, 47, 65);
+    width: 100%;
+    height: 200px;
+    margin-bottom: 100px;
+    
+}
+.text-4 {
+    width: 60%;
+    margin: 40px 50px;
+    color: white;
+    
+
+}
+.text-4 h4 {
+    font-size: 50px;
+}
+.btn-1 {
+    width: 20%;
+    margin-top: 70px;
+    margin-left: 100px;
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .box-4 {
+        height: 500px;
+    }
+    .text-4 {
+        width: 100%;
+        text-align: center;
+        
+    }
+    .btn-1 {
+        width: 100%;
+        text-align: center;
+        margin: 10px auto;
+    } 
+    .insure {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        
+    } 
+    .icons {
+        width: 100%;
+        display: block;
+        margin: auto; 
+        text-align: center;
+    }
+    .icons i {
+        float: none;
+    }
+    .item-links {
+        text-align: center;
+    }
+
+}
+
+
+
+
+/* footer section*/
+
+.foot {
+    width: 100%;
+    background-color: rgb(247, 237, 217);
+    
+}
+
+
+.insure {
+    margin-top: 20px;
+}
+
+.icons i {
+    font-size: 20px;
+    margin: 20px 10px;
+    float: right;
+    color: rgb(95, 94, 94);
+    
+}
+.line-3 {
+    width: 100%;
+    margin-top: 10px;
+    height: 2px;
+    background-color: rgb(207, 188, 188);
+}
+
+
+
+/*FOOTER SECTION*/
+
+.foot-items {
+    color: black;
+    margin-top: 20px;
+    
+}
+.item-links {
+    padding: 20px;
+}
+.item-links h6 {
+    color: #4c698b;
+    margin-bottom: 30px;
+}
+
+.item-links li {
+    margin-top: 8px;
+    font-size: 20px;
+}
